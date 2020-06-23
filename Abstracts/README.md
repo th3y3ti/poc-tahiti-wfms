@@ -12,8 +12,7 @@ uuid: 00000000-0000-0000-0000-000000000000
 created by: name
 created date: xx/xx/20xx
 last ran: xx/xx/20xx
-classification: attack lifecycle phase
-status: initial
+classification: attack lifecycle phase(s)
 priority: 1-5
 ---
 
@@ -27,10 +26,8 @@ Priority of this hunt.
 Reference (links) to attack techniques from MITRE ATT&CK.
 - https://attack.mitre.org/techniques/Txxxx/
 
-## Possible Actors
+## Threat Intel
 Any actors that use these techniques?
-
-## Actor Campaign(s)
 Is there an active campaign in which these techniques are used?
 
 ## Analytic Approach
