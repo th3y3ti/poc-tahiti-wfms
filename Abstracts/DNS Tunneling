@@ -1,0 +1,41 @@
+---
+uuid: ebf3efec-d5e0-4ba7-b09b-eec3d11a6e37
+created by: th3y3ti
+created date: 06/23/2020
+last ran: never
+classification:
+- Command and Control
+- Data Exfiltration
+priority: 3
+---
+
+## Hypothesis
+Threat Actors are exfiltrating data and tunneling C2 commands through the DNS protocol
+
+## Priority Explanation
+DNS Tunneling has been used in Red Team attacks
+
+## MITRE Reference(s)
+Reference (links) to attack techniques from MITRE ATT&CK.
+https://attack.mitre.org/techniques/T1043/
+https://attack.mitre.org/techniques/T1048/
+https://attack.mitre.org/techniques/T1041/
+
+## Analytic Approach
+
+### Analytic Approach 1 - Payload Analysis
+
+- Strange Looking Hostnames
+- Unusual DNS Request Record Type(s)
+- Entropy Analysis
+
+Traffic Analysis
+- Large number of subdomains 
+- Large number of connections
+- Beaconing Patterns
+
+## Reference Information:
+https://www.varonis.com/blog/dns-tunneling/
+
+## Hunters Notes:
+As you iterate through this hunt, add any notes that might be helpful for the next time it is ran. Include a link to the report of your findings.
