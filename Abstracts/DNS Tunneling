@@ -34,6 +34,10 @@ Traffic Analysis
 - Large number of connections
 - Beaconing Patterns
 
+Analytic 2 - Known DNS Tunneling Tools
+- Look for file names and hashes for known DNS tools
+- Look in proxy for downloading visits to known DNS Tools
+
 ## Reference Information:
 https://www.varonis.com/blog/dns-tunneling/
 
